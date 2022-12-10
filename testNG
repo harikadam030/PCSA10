@@ -1,0 +1,9 @@
+System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://demo.guru99.com/test/upload/");
+		driver.findElement(By.id("file_wraper0")).click();
+		//to transfer control from selenium to autoit using thread.sleep
+		Thread.sleep(20000);
+		//link .exe file with 
+		Runtime.getRuntime().exec("E:\\selenium\\practice2.exe");

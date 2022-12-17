@@ -1,0 +1,10 @@
+Synchronization
+The process of application loading speed and automation script excution speed.
+
+why speed of application is slow
+internet 
+poor logic
+
+Thread.sleep(wait)--->blind wait-->it will wait until the given time->we have call it again and again
+implicit wait(intelligent wait)--->wait until the page is loaded->it is been given to complete class
+1)applicable only for findelement and findelements

@@ -5,5 +5,5 @@ System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		driver.findElement(By.id("file_wraper0")).click();
 		//to transfer control from selenium to autoit using thread.sleep
 		Thread.sleep(20000);
-		//link .exe file with 
+	
 		Runtime.getRuntime().exec("E:\\selenium\\practice2.exe");
